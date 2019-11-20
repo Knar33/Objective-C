@@ -7,7 +7,8 @@ int main(int argc, const char * argv[]) {
     
     NSString *firstName;
     firstName = @"Jaime";
+    NSString *lastName = @"James";
     
-    NSLog(@"First Name: %@", firstName);
+    NSLog(@"First Name: %@ %@", firstName, lastName);
     return 0;
 }
