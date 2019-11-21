@@ -1,13 +1,14 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    float currentWeight = 124.75;
-    float currentHeight = 66.0;
+    bool testBool = true;
+    BOOL otherBool = YES;
     
-    double currentWeightPerInch = currentWeight / currentHeight;
-    
-    NSLog(@"currentWeight is %f", currentWeight);
-    NSLog(@"CurrentHeight is %f", currentHeight);
-    NSLog(@"currentWeightPerInch is %f", currentWeightPerInch);
+    if (testBool == otherBool) {
+        NSLog(@"yes");
+    }
+    else {
+        NSLog(@"no");
+    }
     return 0;
 }
