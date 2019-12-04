@@ -10,4 +10,13 @@
 
 @implementation MyFirstClass
 
+-(id)init {
+    self = [super init];
+    
+    if (self) {
+        self.numberz = 1;
+    }
+    
+    return self;
+}
 @end
