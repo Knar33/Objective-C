@@ -2,13 +2,12 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSNumber *myNumber = @0.0F;
         NSDictionary *orderDict = @{
             @"burgers": @5,
             @"shakes": @3,
             @"customers": @4,
             @"isTakeout": @NO,
-            @"subtotal": @0.0F,
+            @"subtotal": @0.1234f,
         };
         float burgerPrice = 4;
         float shakePrice = 3;
