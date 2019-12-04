@@ -1,23 +1,14 @@
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
+    
     @autoreleasepool {
-        NSDictionary *orderDict = @{
-            @"burgers": @5,
-            @"shakes": @3,
-            @"customers": @4,
-            @"isTakeout": @NO,
-            @"subtotal": @0.1234f,
-        };
-        float burgerPrice = 4;
-        float shakePrice = 3;
-        float subtotal;
+        float totalAges = 0;
+        NSArray *agesArray = @[@1, @3, @5, @7, @9];
         
-        subtotal = (burgerPrice * [[orderDict valueForKey:@"burgers"]intValue]) + (shakePrice * [[orderDict valueForKey:@"shakes"]intValue]);
-        
-        NSMutableDictionary *outputDict = [NSMutableDictionary dictionaryWithDictionary:orderDict];
-        
-        [outputDict setValue:@(subtotal) forKey:@"subtotal"];
+        for(NSNumber *age in agesArray) {
+            subtotal += [age intValue];
+        }
     }
     
     return 0;
