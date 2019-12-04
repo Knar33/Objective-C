@@ -10,7 +10,7 @@
 
 @implementation MyFirstClass
 
--(id)init {
+-(id)init{
     self = [super init];
     
     if (self) {
@@ -19,4 +19,13 @@
     
     return self;
 }
+
+-(void)increaseNumberz {
+    self.numberz++;
+}
+
+-(void)increaseNumberzBy:(int)amount {
+    self.numberz += amount;
+}
+
 @end
