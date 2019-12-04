@@ -1,38 +1,19 @@
 #import <Foundation/Foundation.h>
 
-enum popcornSizes {
-    smallPopcorn = 1,
-    mediumPopcorn = 2,
-    largePopcorn = 3
-};
-
 int main(int argc, const char * argv[]) {
-    int player1Score = 0;
-    int player2Score = 0;
-    bool gameOver = false;
-    
-    while (!gameOver) {
-        int roundWinner = arc4random() % 2;
+    @autoreleasepool {
+        NSDictionary *orderDict = @{
+            @"burgers": @5,
+            @"shakes": @3,
+            @"customers": @4,
+            @"isTakeout": @NO,
+            @"subtotal": @0.0,
+        };
+        float burgerPrice = 4;
+        float shakePrice = 3;
+        float subtotal;
         
-        if (roundWinner == 0) {
-            NSLog(@"Player 1 scores");
-            player1Score++;
-        }
-        else {
-            NSLog(@"Player 2 scores");
-            player2Score++;
-        }
-        
-        NSLog(@"Score: %i to %i", player1Score, player2Score);
-        
-        if ((player1Score >= 21) && (player1Score - player2Score >= 2)) {
-            gameOver = true;
-            NSLog(@"Player 1 wins");
-        }
-        if ((player2Score >= 21) && (player2Score - player1Score >= 2)) {
-            gameOver = true;
-            NSLog(@"Player 2 wins");
-        }
+        subtotal = (burgerPrice * [[orderDict valueForKey:@"burgers"]intValue]) + (shakePrice * [[orderDict valueForKey:@"shakes"]intValue]);
     }
     return 0;
 }
