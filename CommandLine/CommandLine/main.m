@@ -3,12 +3,11 @@
 int main(int argc, const char * argv[]) {
     
     @autoreleasepool {
-        float totalAges = 0;
-        NSArray *agesArray = @[@1, @3, @5, @7, @9];
+        NSMutableArray *multipleArray = [NSMutableArray arrayWithObjects:@"Name", @"otherName", @"Name", nil];
         
-        for(NSNumber *age in agesArray) {
-            totalAges += [age intValue];
-        }
+        [multipleArray removeObjectIdenticalTo:@"Name"];
+        
+        [multipleArray insertObject:@"NewName" atIndex:1];
     }
     
     return 0;
