@@ -7,7 +7,7 @@ int main(int argc, const char * argv[]) {
         NSArray *agesArray = @[@1, @3, @5, @7, @9];
         
         for(NSNumber *age in agesArray) {
-            subtotal += [age intValue];
+            totalAges += [age intValue];
         }
     }
     
