@@ -9,9 +9,11 @@ int main(int argc, const char * argv[]) {
     int i = 10;
     NSLog(@"memory address for i: %p", &i);
     NSLog(@"value for  i: %i", i);
+    
     increment(i);
     NSLog(@"memory address for i: %p", &i);
     NSLog(@"value for i: %i", i);
+    
     incrementPointer(&i);
     NSLog(@"memory address for i: %p", &i);
     NSLog(@"value for i: %i", i);
