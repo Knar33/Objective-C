@@ -19,5 +19,8 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)showFunFact {
+    self.funFactLabel.text = @"Another interesting fact";
+}
 
 @end
