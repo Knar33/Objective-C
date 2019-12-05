@@ -1,14 +1,12 @@
 #import <Foundation/Foundation.h>
 #import "MyFirstClass.h"
+#import "NSArray+Deduper.h"
 
 int main(int argc, const char * argv[]) {
     
-    @autoreleasepool {
-        MyFirstClass *instance1 = [[MyFirstClass alloc] init];
-        
-        [instance1 increaseNumberz];
-        [instance1 increaseNumberzBy:5];
-    }
+    NSArray *rawArray = @[@"val1", @"val2", @"val1", @"val3"];
+    
+    rawArray = [rawArray Dedupe];
     
     return 0;
 }
