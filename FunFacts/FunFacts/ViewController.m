@@ -16,11 +16,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.facts = [[NSArray alloc] initWithObjects:
+              @"Fake Fact 1",
+              @"Fake Fact 2",
+              @"Fake Fact 3",
+              nil];
+    
+    self.currentFact = 0;
+    self.funFactLabel.text = [self.facts objectAtIndex:self.currentFact];
 }
 
 - (IBAction)showFunFact {
-    self.funFactLabel.text = @"Another interesting fact";
+    self.currentFact++;
+    if (self.currentFact >= [self.facts count]) {
+        self.currentFact = 0;
+    }
+    self.funFactLabel.text = [self.facts objectAtIndex:self.currentFact];
 }
 
 @end
