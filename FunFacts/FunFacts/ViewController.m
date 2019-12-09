@@ -1,5 +1,5 @@
 #import "ViewController.h"
-#import "FactBook.h";
+#import "FactBook.h"
 
 @interface ViewController ()
 
@@ -15,7 +15,7 @@
 }
 
 - (IBAction)showFunFact {
-    self.funFactLabel.text = [self.factBook.facts objectAtIndex:arc4random_uniform([self.factBook.facts count])];
+    self.funFactLabel.text = [self.factBook randomFact];
 }
 
 @end

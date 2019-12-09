@@ -6,6 +6,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) NSArray *facts;
 
+- (NSString *)randomFact;
+
 @end
 
 NS_ASSUME_NONNULL_END

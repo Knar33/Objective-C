@@ -17,4 +17,8 @@
     return self;
 }
 
+- (NSString *)randomFact {
+    return [self.facts objectAtIndex:arc4random_uniform((int)self.facts.count)];
+}
+
 @end
