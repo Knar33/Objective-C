@@ -22,17 +22,11 @@
               @"Fake Fact 2",
               @"Fake Fact 3",
               nil];
-    
-    self.currentFact = 0;
-    self.funFactLabel.text = [self.facts objectAtIndex:self.currentFact];
+    [self showFunFact];
 }
 
 - (IBAction)showFunFact {
-    self.currentFact++;
-    if (self.currentFact >= [self.facts count]) {
-        self.currentFact = 0;
-    }
-    self.funFactLabel.text = [self.facts objectAtIndex:self.currentFact];
+    self.funFactLabel.text = [self.facts objectAtIndex:arc4random_uniform([self.facts count])];
 }
 
 @end

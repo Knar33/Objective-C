@@ -14,7 +14,5 @@
 
 @property (strong, nonatomic) NSArray *facts;
 
-@property (nonatomic) int currentFact;
-
 @end
 
