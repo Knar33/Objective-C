@@ -16,6 +16,7 @@
 		CF137AB023997DD300117A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF137AAF23997DD300117A36 /* main.m */; };
 		CF137ABA23997DD700117A36 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF137AB923997DD700117A36 /* FunFactsTests.m */; };
 		CF137AC523997DD700117A36 /* FunFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF137AC423997DD700117A36 /* FunFactsUITests.m */; };
+		CF137AD4239EC7EC00117A36 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CF137AD3239EC7EB00117A36 /* FactBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CF137AC023997DD700117A36 /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF137AC423997DD700117A36 /* FunFactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsUITests.m; sourceTree = "<group>"; };
 		CF137AC623997DD700117A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF137AD2239EC7EB00117A36 /* FactBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		CF137AD3239EC7EB00117A36 /* FactBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				CF137AAB23997DD300117A36 /* LaunchScreen.storyboard */,
 				CF137AAE23997DD300117A36 /* Info.plist */,
 				CF137AAF23997DD300117A36 /* main.m */,
+				CF137AD2239EC7EB00117A36 /* FactBook.h */,
+				CF137AD3239EC7EB00117A36 /* FactBook.m */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			files = (
 				CF137AA523997DA600117A36 /* ViewController.m in Sources */,
 				CF137A9F23997DA600117A36 /* AppDelegate.m in Sources */,
+				CF137AD4239EC7EC00117A36 /* FactBook.m in Sources */,
 				CF137AB023997DD300117A36 /* main.m in Sources */,
 				CF137AA223997DA600117A36 /* SceneDelegate.m in Sources */,
 			);
