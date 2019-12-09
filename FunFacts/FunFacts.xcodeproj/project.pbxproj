@@ -17,6 +17,7 @@
 		CF137ABA23997DD700117A36 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF137AB923997DD700117A36 /* FunFactsTests.m */; };
 		CF137AC523997DD700117A36 /* FunFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF137AC423997DD700117A36 /* FunFactsUITests.m */; };
 		CF137AD4239EC7EC00117A36 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CF137AD3239EC7EB00117A36 /* FactBook.m */; };
+		CF137AD7239ED69C00117A36 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF137AD6239ED69C00117A36 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		CF137AC623997DD700117A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF137AD2239EC7EB00117A36 /* FactBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
 		CF137AD3239EC7EB00117A36 /* FactBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		CF137AD5239ED69C00117A36 /* ColorWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		CF137AD6239ED69C00117A36 /* ColorWheel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				CF137AA323997DA600117A36 /* ViewController.h */,
 				CF137AA423997DA600117A36 /* ViewController.m */,
 				CF137AA623997DA600117A36 /* Main.storyboard */,
+				CF137AD5239ED69C00117A36 /* ColorWheel.h */,
+				CF137AD6239ED69C00117A36 /* ColorWheel.m */,
 				CF137AA923997DD300117A36 /* Assets.xcassets */,
 				CF137AAB23997DD300117A36 /* LaunchScreen.storyboard */,
 				CF137AAE23997DD300117A36 /* Info.plist */,
@@ -275,6 +280,7 @@
 				CF137AA523997DA600117A36 /* ViewController.m in Sources */,
 				CF137A9F23997DA600117A36 /* AppDelegate.m in Sources */,
 				CF137AD4239EC7EC00117A36 /* FactBook.m in Sources */,
+				CF137AD7239ED69C00117A36 /* ColorWheel.m in Sources */,
 				CF137AB023997DD300117A36 /* main.m in Sources */,
 				CF137AA223997DA600117A36 /* SceneDelegate.m in Sources */,
 			);

@@ -1,5 +1,6 @@
 #import "ViewController.h"
 #import "FactBook.h"
+#import "ColorWheel.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (IBAction)showFunFact {
     self.funFactLabel.text = [self.factBook randomFact];
+    UIColor *randomColor = [ColorWheel randomColor];
+    self.view.backgroundColor = randomColor;
+    self.funFactButton.tintColor = randomColor;
 }
 
 @end

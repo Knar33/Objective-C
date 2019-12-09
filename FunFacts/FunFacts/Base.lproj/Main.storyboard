@@ -58,6 +58,7 @@
                         <viewLayoutGuide key="safeArea" id="Ixh-xB-AFO"/>
                     </view>
                     <connections>
+                        <outlet property="funFactButton" destination="Y8K-3n-JPe" id="Zqd-qb-1DV"/>
                         <outlet property="funFactLabel" destination="6QW-sW-06O" id="EVx-AE-ZcG"/>
                     </connections>
                 </viewController>
