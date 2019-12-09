@@ -11,10 +11,10 @@
 @implementation ColorWheel
 
 + (UIColor *)randomColor {
-    long red = arc4random_uniform(256)/255.0;
-    long green = arc4random_uniform(256)/255.0;
-    long blue = arc4random_uniform(256)/255.0;
-    long alpha = arc4random_uniform(256)/255.0;
+    CGFloat red = (arc4random_uniform(256))/255.0;
+    CGFloat green = (arc4random_uniform(256))/255.0;
+    CGFloat blue = (arc4random_uniform(256))/255.0;
+    CGFloat alpha = (arc4random_uniform(256))/255.0;
     return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
 }
 
