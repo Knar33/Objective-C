@@ -19,5 +19,8 @@
     [self.aButton setTitle:@"Press me!" forState:UIControlStateNormal];
 }
 
+- (IBAction)buttonPressed:(id)sender {
+    self.view.backgroundColor = [UIColor orangeColor];
+}
 
 @end
