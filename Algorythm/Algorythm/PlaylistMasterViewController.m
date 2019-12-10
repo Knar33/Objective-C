@@ -6,21 +6,17 @@
 //  Copyright © 2019 Knar. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PlaylistMasterViewController.h"
 
-@interface ViewController ()
+@interface PlaylistMasterViewController ()
 
 @end
 
-@implementation ViewController
+@implementation PlaylistMasterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.aButton setTitle:@"Press me!" forState:UIControlStateNormal];
-}
-
-- (IBAction)buttonPressed:(id)sender {
-    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PlaylistDetailViewController.h
 //  Algorythm
 //
 //  Created by Knar Knar on 12/10/19.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
-@property (weak, nonatomic) IBOutlet UIButton *aButton;
+@interface PlaylistDetailViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

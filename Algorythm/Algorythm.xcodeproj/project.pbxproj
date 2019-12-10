@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		CF4307C223A0019700457D33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4307C123A0019700457D33 /* AppDelegate.m */; };
 		CF4307C523A0019700457D33 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4307C423A0019700457D33 /* SceneDelegate.m */; };
-		CF4307C823A0019700457D33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4307C723A0019700457D33 /* ViewController.m */; };
+		CF4307C823A0019700457D33 /* PlaylistMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4307C723A0019700457D33 /* PlaylistMasterViewController.m */; };
 		CF4307CB23A0019800457D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4307C923A0019800457D33 /* Main.storyboard */; };
 		CF4307CD23A001B500457D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4307CC23A001B500457D33 /* Assets.xcassets */; };
 		CF4307D023A001B500457D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4307CE23A001B500457D33 /* LaunchScreen.storyboard */; };
 		CF4307D323A001B500457D33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4307D223A001B500457D33 /* main.m */; };
+		CF4307DB23A02FA400457D33 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4307DA23A02FA400457D33 /* PlaylistDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +23,15 @@
 		CF4307C123A0019700457D33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CF4307C323A0019700457D33 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		CF4307C423A0019700457D33 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		CF4307C623A0019700457D33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF4307C723A0019700457D33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF4307C623A0019700457D33 /* PlaylistMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistMasterViewController.h; sourceTree = "<group>"; };
+		CF4307C723A0019700457D33 /* PlaylistMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistMasterViewController.m; sourceTree = "<group>"; };
 		CF4307CA23A0019800457D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF4307CC23A001B500457D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4307CF23A001B500457D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4307D123A001B500457D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF4307D223A001B500457D33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF4307D923A02FA400457D33 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
+		CF4307DA23A02FA400457D33 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +68,15 @@
 				CF4307C123A0019700457D33 /* AppDelegate.m */,
 				CF4307C323A0019700457D33 /* SceneDelegate.h */,
 				CF4307C423A0019700457D33 /* SceneDelegate.m */,
-				CF4307C623A0019700457D33 /* ViewController.h */,
-				CF4307C723A0019700457D33 /* ViewController.m */,
+				CF4307C623A0019700457D33 /* PlaylistMasterViewController.h */,
+				CF4307C723A0019700457D33 /* PlaylistMasterViewController.m */,
 				CF4307C923A0019800457D33 /* Main.storyboard */,
 				CF4307CC23A001B500457D33 /* Assets.xcassets */,
 				CF4307CE23A001B500457D33 /* LaunchScreen.storyboard */,
 				CF4307D123A001B500457D33 /* Info.plist */,
 				CF4307D223A001B500457D33 /* main.m */,
+				CF4307D923A02FA400457D33 /* PlaylistDetailViewController.h */,
+				CF4307DA23A02FA400457D33 /* PlaylistDetailViewController.m */,
 			);
 			path = Algorythm;
 			sourceTree = "<group>";
@@ -146,8 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4307C823A0019700457D33 /* ViewController.m in Sources */,
+				CF4307C823A0019700457D33 /* PlaylistMasterViewController.m in Sources */,
 				CF4307C223A0019700457D33 /* AppDelegate.m in Sources */,
+				CF4307DB23A02FA400457D33 /* PlaylistDetailViewController.m in Sources */,
 				CF4307D323A001B500457D33 /* main.m in Sources */,
 				CF4307C523A0019700457D33 /* SceneDelegate.m in Sources */,
 			);
